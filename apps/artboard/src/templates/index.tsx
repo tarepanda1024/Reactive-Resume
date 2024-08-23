@@ -10,6 +10,7 @@ import { Kakuna } from "./kakuna";
 import { Leafish } from "./leafish";
 import { Nosepass } from "./nosepass";
 import { Onyx } from "./onyx";
+import { Winter } from "./winter";
 import { Pikachu } from "./pikachu";
 import { Rhyhorn } from "./rhyhorn";
 
@@ -50,6 +51,9 @@ export const getTemplate = (template: Template) => {
     }
     case "rhyhorn": {
       return Rhyhorn;
+    }
+    case "winter": {
+      return Winter;
     }
     default: {
       return Onyx;
